@@ -1,11 +1,3 @@
----
-title: AI Career Agent
-emoji: 🚀
-colorFrom: blue
-colorTo: purple
-sdk: docker
-app_port: 7860
----
 
 #  AI Career Agent 🤖💼
 
@@ -16,11 +8,14 @@ app_port: 7860
 
 Welcome to ** AI Career Agent** — a cutting-edge interactive AI agent designed to act as a highly intelligent, 24/7 personal recruiter and interactive CV. It accurately and naturally answers conversational questions about  (AI/ML Engineer) experience, skills, projects, and certifications.
 
+<img width="1511" height="903" alt="image" src="https://github.com/user-attachments/assets/6268b3e5-79a6-400f-8007-a487cf9d8a1e" />
+
+
 ---
 
 ## 🌟 Project Highlights & Achievements
 
-- **True Agentic Workflow**: Built with **LangGraph**, the application doesn't just passively answer questions using RAG; it actively reasons, decides which internal tools to execute, and formats responses based on user context.
+- **True Agentic Workflow**: Built with **LangGraph**, the application doesn't just passively answer questions using **Vectorless RAG**; it actively reasons, decides which internal tools to execute, and formats responses based on user context.
 - **Microservices-ready Architecture**: Decoupled backend (FastAPI) and frontend (Gradio) connected via internal networking.
 - **Advanced Contextual Grounding**: Employs Tree Retrieval mechanisms, ensuring the agent *never* hallucinates skills or projects outside of the formally ingested CV context.
 - **Multilingual Support**: Can intelligently converse naturally, including responding contextually in Egyptian Arabic if prompted in Arabic.
@@ -32,6 +27,12 @@ Welcome to ** AI Career Agent** — a cutting-edge interactive AI agent designed
 ## 🏗 Project Architecture & Structure
 
 The codebase is organized following production-grade architectural patterns, ensuring maintainability, modularity, and scalability:
+
+<img width="1780" height="527" alt="image" src="https://github.com/user-attachments/assets/ec587077-763e-4c07-90c3-902485bac950" />
+
+
+
+
 
 ```text
 Abdelrahman_AI_Career_Agent/
@@ -54,6 +55,8 @@ Abdelrahman_AI_Career_Agent/
 ├── pyproject.toml          # Python project dependencies (managed via uv)
 └── uv.lock                 # Lockfile for exact dependency reproducibility
 ```
+
+<img width="374" height="595" alt="image" src="https://github.com/user-attachments/assets/5543532a-9214-4a48-843d-ceec286875d6" />
 
 ---
 
